@@ -1,0 +1,217 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    height: 50px;
+    background-color: #212121;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.menu .menu_item:last-child {
+    border: none;
+}
+
+.subheader {
+    margin-top: 50px;
+    width: 100%;    
+    position: absolute;
+    height: 84px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.subheader .subheader_logo {
+    display: block;
+    margin-top: 16px;
+    max-width: 100%;
+}
+
+.subheader .subheader_official {
+    margin-top: 6px;
+    opacity: 0.5;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.subheader .subheader_call {
+    margin-top: 19px;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: right;
+    color: #ffffff;
+}
+
+.subheader .subheader_phone {
+    display: block;
+    margin-top: 8px;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: right;
+    color: #ffffff;
+    line-height: 12px;
+}
+
+.subheader .subheader_btn {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.promo {
+    min-height: 800px;
+    background: url(../img/bg/main_bg.jpg) center center/cover no-repeat;
+    padding: 150px 0 135px;
+}
+
+.promo .promo_header {
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    line-height: 60px;
+    margin: 0;
+}
+
+.promo .promo_subheader{
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 22px;
+}
+
+.promo .promo_descr {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.33;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 23px;
+}
+
+.promo .promo_btn {
+    display: block;
+    width: 259px;
+    height: 63px;
+    margin: 118px auto 0;
+    box-shadow: inset 0px -4px 0 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.reasons {
+    min-height: 900px;
+    padding: 71px 0 65px;
+}
+
+.reasons .reasons_advantages {
+    padding: 5px 0;
+    margin: 0 auto;
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    font-size: 11px;
+    font-weight: 100;
+    text-align: center;
+    color: #ffffff;
+}
+
+.reasons .main_reasons {
+    margin-top: 38px;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    color: #222222;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.reasons .reasons_wrap {
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reasons .reasons_round {
+    position: relative;
+    min-width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+
+.reasons .reasons_logo {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.reasons .reasons_descr {
+    margin-left: 26px;
+    width: 343px;
+    min-height: 150px;
+}
+
+.reasons .main_descr {
+    font-size: 17px;
+    font-weight: normal;
+    color: #1eacc7;
+}
+
+.reasons .main_text {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+    text-align: justify;
+    color: #202020;
+}
